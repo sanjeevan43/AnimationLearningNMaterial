@@ -29,7 +29,6 @@ struct ContentView: View {
             Circle().fill(sunGradient).frame(width: 100, height: 100)
                 .shadow(color:.red,radius: 10)
                 .offset(y:isDay ? -300 : 400)
-                
             
             Circle().fill(moonGradient).frame(width: 100, height: 100)
                 .shadow(color:.red,radius: 10)
